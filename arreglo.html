@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let frutas = ["Manzana", "Banana", "Pera"];
+        console.log("Arreglo original:  " + frutas);
+        console.log("frutas.length:  " + frutas.length);
+        console.log("frutas[2]: " + frutas[2]);
+        console.log("frutas.push('Kiwi')");
+        frutas.push('Kiwi')
+        console.log("Arreglo:  " + frutas);
+        console.log("frutas.length:  " + frutas.length);
+        frutas.push('fresa')
+        console.log("arreglo: "+ frutas);
+        console.log("frutas.length: "+ frutas.length);
+         frutas = ["Manzana", "Banana", "Pera", "kiwi", "fresa"];
+         console.log("Arreglo original:  " + frutas);
+         console.log("frutas.push('fresa')");
+        nuevaLongitud = frutas.push("kiwi");
+        primero = frutas.shift(); 
+        pos = frutas.indexOf("Banana"); 
+        console.log(pos);
+        elementoEliminado = frutas.splice(pos, 2);
+        copiaArray = frutas.slice("pera","kiwiw");
+        console.log(frutas.length);
+        </script>
+</body>
+</html>
